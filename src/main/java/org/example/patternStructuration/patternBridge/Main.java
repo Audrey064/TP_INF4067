@@ -2,6 +2,9 @@ package org.example.patternStructuration.patternBridge;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Shape s1 = new Rectangle(new RedColor());
+        s1.colorIt();
+        Shape s2 = new Circle (new BlueColor());
+        s2.colorIt();
     }
 }
